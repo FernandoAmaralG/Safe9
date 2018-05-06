@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"> 	
+      
+    <ui:composition template="template.xhtml">
+        
+        <ui:define name="conteudo">
+        
+        <!-- Charts library -->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="JavaScript/graficos.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+      	
+      		google.charts.load('current', {'packages':['corechart'], 'language': 'pt'});
+			
+      		google.charts.setOnLoadCallback(desenharGraficos);
+      		      		
+      	</script>
+        
+        <div class="container">
+        
+        <div class="row">
+        
+        <br /><br />
+        
+        <div class="col-md-5">
+        
+        <div class="form-group input-group">
+        
+  			<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+  			
+  			<input name="consulta" id="txt_consulta" placeholder="Buscar paciente" type="text" class="form-control" />
+  			
+		</div>
+		
+		</div>
+        
+        <div class="col-md-6"></div>
+		
+		<div class="col-md-1"></div>        
+        
+        </div>
+        
+        </div>
+                
+        <div id="graficoLinha"></div>
+        
+        <div id="graficoColuna"></div>
+        
+        <div id="graficoColunaSurpresa"></div>
+        
+        <div id="graficoBarrasJson"></div>
+                
+        </ui:define>
+        
+    </ui:composition>
+    
+</html>

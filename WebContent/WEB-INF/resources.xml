@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<resources>
+    
+    <Resource id="safe9" type="javax.sql.DataSource">
+	    jdbcDriver = com.mysql.jdbc.Driver
+	    jdbcUrl = jdbc:mysql://safe9.cowdjn0yttjs.sa-east-1.rds.amazonaws.com:3306/safenine
+	    password = 123456789
+	    userName = safenine9
+	</Resource>
+
+</resources>

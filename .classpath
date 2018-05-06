@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Yue/Desktop/eclipse_arquivos/bibliotecas/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yue/Desktop/eclipse_arquivos/bibliotecas/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yue/Desktop/eclipse_arquivos/bibliotecas/primefaces-6.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/apache-tomee-plume-1.7.3/lib/javaee-api-6.0-6.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomee-plume-1.7.3/lib/javax.faces-2.1.29.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

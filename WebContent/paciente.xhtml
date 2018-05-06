@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+    <ui:composition template="template.xhtml">
+        
+        <ui:define name="conteudo">
+        
+        <div class="container">
+        
+        <div class="row">
+        
+        <br /><br />
+        <div class="col-md-6"></div>
+        
+        <div class="col-md-5">
+        
+        <div class="form-group input-group">
+        
+  			<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+  			
+  			<input name="consulta" id="txt_consulta" placeholder="Buscar paciente pelo nome" type="text" class="form-control" />
+		
+		</div>
+		
+		</div>
+		
+		<div class="col-md-1"></div>
+        
+        <table class="table table-hover">
+  			
+  			<thead>
+    			
+    			<tr>
+      				
+      				<th scope="col"></th>
+      				<th scope="col">Nome</th>
+      				<th scope="col">Endereço</th>
+      				<th scope="col">CPF</th>
+      				<th scope="col">Telefone</th>
+      				<th scope="col">Início do Acompanhamento</th>
+    			</tr>
+  
+  			</thead>
+  			
+  			<tbody>
+    			
+    			
+  			
+  			</tbody>
+  			
+		</table>
+        
+        </div>
+        
+        </div>
+        
+        <div class="col-md-9"></div>
+        
+        <div class="col-md-3">
+        	
+        	<button onclick="window.location.href='cadastroPaciente.xhtml'" type="submit" class="form-control"><i class="glyphicon glyphicon-plus"></i>Adicionar Paciente</button>
+        
+        </div>
+        
+        </ui:define>
+        
+    </ui:composition>
+    
+</html>

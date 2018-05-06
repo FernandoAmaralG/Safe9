@@ -1,0 +1,149 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+    <ui:composition template="template.xhtml">
+        
+        <ui:define name="conteudo">
+        	
+        	<div class="w3-container">
+        	
+       			<h2 style="text-align:center">Cadastro de Paciente</h2>
+       		
+       		</div>
+       		
+       		<div class="container">
+        		
+        		<form>
+        			
+        			<div class="form-group">
+        			<div class="row">
+					
+						<h3>Dados Pessoais</h3>
+						
+						<div class="col-md-5">
+						
+						<label>Nome</label>
+						<input type="text" class="form-control" placeholder="Nome Completo"/>
+						
+						</div>
+					
+						<div class="col-md-3">
+						
+						<label>Data Nascimento</label>
+						<input type="text" class="form-control" placeholder="Data Nascimento" />
+					
+						</div>
+						
+						<div class="col-md-3">
+						
+						<label>Data Início Gravidez</label>
+						<input type="text" class="form-control" placeholder="Data Início Gravidez" />
+					
+						</div>
+					
+					</div>
+					
+					<div class="row">
+					
+						<div class="col-md-4">
+						
+						<label>CPF</label>
+						<input type="text" class="form-control" placeholder="CPF" />
+					
+						</div>	
+						
+						<div class="col-md-4">
+						
+						<label>RG</label>
+						<input type="text" class="form-control" placeholder="RG" />
+					
+						</div>
+						
+						<div class="col-md-3">
+						
+						<label>Telefone</label>
+						<input type="text" class="form-control" placeholder="Telefone fixo ou celular" />
+					
+						</div>
+							
+					</div>
+					
+					<div class="row">
+					
+						<h3>Endereço</h3>
+						
+						<div class="col-md-5">
+						
+						<label>Rua</label>
+						<input type="text" class="form-control" placeholder="Rua"/>
+						
+						</div>
+						
+						<div class="col-md-3">
+						
+						<label>Bairro</label>
+						<input type="text" class="form-control" placeholder="Bairro"/>
+						
+						</div>
+						
+						<div class="col-md-3">
+						
+						<label>Número</label>
+						<input type="text" class="form-control" placeholder="Número"/>
+						
+						</div>
+						
+					</div>
+					
+					<div class="row">
+					
+												
+						<div class="col-md-5">
+						
+						<label>Cidade</label>
+						<input type="text" class="form-control" placeholder="Cidade"/>
+						
+						</div>
+												
+						<div class="col-md-6">
+						
+						<label>Estado</label>
+						<input type="text" class="form-control" placeholder="Estado"/>
+						
+						</div>
+					
+					</div>
+					
+					<div class="row">
+					
+						<h3>Observações</h3>
+						
+						<div class="col-md-11">
+							
+							<label>Observações</label>
+							<textarea class="form-control" rows="3"></textarea>
+							
+						</div>
+					
+					</div>
+					
+        			</div>
+        			
+        			<div class="row">
+        			
+        				<div class="col-md-4"></div>
+        				
+        				<button style="width:300px" type="submit" class="btn btn-primary">Adicionar Paciente</button>       				
+        				
+        			</div>
+        			
+        		</form>
+        	</div>
+        
+        </ui:define>
+        
+    </ui:composition>
+    
+</html>

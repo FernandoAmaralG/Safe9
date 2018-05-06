@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+	<persistence-unit name="br.com.safe9.rest" transaction-type="JTA">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+   		<jta-data-source>safe9</jta-data-source>
+   		
+   		<class>br.com.safe9.entity.Bebe</class>
+		<class>br.com.safe9.entity.Cidade</class>
+		<class>br.com.safe9.entity.DadosCorporais</class>
+		<class>br.com.safe9.entity.Dispositivo</class>
+		<class>br.com.safe9.entity.Endereco</class>
+		<class>br.com.safe9.entity.Login</class>
+		<class>br.com.safe9.entity.Medico</class>
+		<class>br.com.safe9.entity.Paciente</class>
+		<class>br.com.safe9.entity.PacienteDispositivo</class>
+		<class>br.com.safe9.entity.Pessoa</class>
+		<class>br.com.safe9.entity.Telefone</class>
+		<class>br.com.safe9.entity.UnidadeFederativa</class>
+		
+		<properties>
+			<property name="eclipselink.logging.level" value="FINE"/>
+			<property name="eclipselink.logging.parameters" value="true"/>
+			<property name="eclipselink.ddl-generation" value="create-tables"/>
+		</properties>
+	</persistence-unit>
+</persistence>
